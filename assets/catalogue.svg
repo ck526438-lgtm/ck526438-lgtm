@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 660" width="1500" height="660" role="img" aria-label="Le catalogue des six outils du studio FORMATpro3">
+  <defs>
+    <linearGradient id="fond2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f8fc"/>
+      <stop offset="1" stop-color="#eceff8"/>
+    </linearGradient>
+    <filter id="ombre" x="-15%" y="-25%" width="130%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="7" flood-color="#1e2233" flood-opacity="0.09"/>
+    </filter>
+  </defs>
+
+  <style>
+    text { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .h { font-size: 26px; font-weight: 800; fill: #14161f; letter-spacing: -0.5px; }
+    .sh { font-size: 15.5px; fill: #5a6072; }
+    .fam { font-size: 12.5px; font-weight: 800; letter-spacing: 2.6px; fill: #7b8194; }
+    .nom { font-size: 19px; font-weight: 800; fill: #14161f; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .d { font-size: 15px; fill: #4b5163; }
+    .tag { font-size: 12.5px; font-weight: 700; fill: #4f46e5; }
+    .reg { font-size: 15px; fill: #333a4d; }
+    .regb { font-size: 15.5px; font-weight: 800; fill: #14161f; }
+    .dtb { font-size: 17px; font-weight: 800; fill: #ffffff; }
+    .dt { font-size: 15px; fill: #a7acc4; }
+    .dl { font-size: 15px; fill: #c9cee6; }
+  </style>
+
+  <rect width="1500" height="660" rx="18" fill="url(#fond2)"/>
+  <text x="60" y="52" class="h">Six outils, une même idée</text>
+  <text x="60" y="80" class="sh">Un indépendant ne devrait payer personne pour afficher un rendez-vous, suivre un chantier ou publier une vidéo.</text>
+
+  <!-- Colonne 1 -->
+  <text x="60" y="122" class="fam">GÉRER SON ACTIVITÉ</text>
+  <g filter="url(#ombre)"><rect x="60" y="138" width="440" height="128" rx="13" fill="#fff" stroke="#e2e5ee"/></g>
+  <rect x="60" y="138" width="5" height="128" rx="2.5" fill="#22c55e"/>
+  <text x="86" y="170" class="nom">creneau</text>
+  <text x="86" y="198" class="d">Prise de rendez-vous en ligne pour indépendants :</text>
+  <text x="86" y="220" class="d">créneaux, fuseaux horaires, rappels par e-mail.</text>
+  <text x="86" y="246" class="tag">Next.js 15 · Prisma · SQLite · Tailwind v4</text>
+
+  <g filter="url(#ombre)"><rect x="60" y="284" width="440" height="128" rx="13" fill="#fff" stroke="#e2e5ee"/></g>
+  <rect x="60" y="284" width="5" height="128" rx="2.5" fill="#4f46e5"/>
+  <text x="86" y="316" class="nom">git-client-portal</text>
+  <text x="86" y="344" class="d">Le client voit l'avancement, ses livrables et ses</text>
+  <text x="86" y="366" class="d">factures derrière un mot de passe. Zéro base.</text>
+  <text x="86" y="392" class="tag">Next.js 16 · Markdown · Vercel / Netlify</text>
+
+  <g filter="url(#ombre)"><rect x="60" y="430" width="440" height="128" rx="13" fill="#fff" stroke="#e2e5ee"/></g>
+  <rect x="60" y="430" width="5" height="128" rx="2.5" fill="#e2e5ee"/>
+  <text x="86" y="466" class="regb">Ce qui ne change jamais</text>
+  <text x="86" y="494" class="reg">Auto-hébergeable — aucun SaaS obligatoire</text>
+  <text x="86" y="516" class="reg">Sans abonnement — la donnée reste chez vous</text>
+  <text x="86" y="538" class="reg">MIT — modifiable, réutilisable, revendable</text>
+
+  <!-- Colonne 2 -->
+  <text x="530" y="122" class="fam">PUBLIER SANS Y TOUCHER</text>
+  <g filter="url(#ombre)"><rect x="530" y="138" width="440" height="128" rx="13" fill="#fff" stroke="#e2e5ee"/></g>
+  <rect x="530" y="138" width="5" height="128" rx="2.5" fill="#8b5cf6"/>
+  <text x="556" y="170" class="nom">formatpro3-workflow</text>
+  <text x="556" y="198" class="d">Éditeur de workflows par nœuds, 44 nœuds réels,</text>
+  <text x="556" y="220" class="d">publication vidéo sur 7 réseaux. 100 % navigateur.</text>
+  <text x="556" y="246" class="tag">TypeScript · local-first · interface française</text>
+
+  <g filter="url(#ombre)"><rect x="530" y="284" width="440" height="128" rx="13" fill="#fff" stroke="#e2e5ee"/></g>
+  <rect x="530" y="284" width="5" height="128" rx="2.5" fill="#f59e0b"/>
+  <text x="556" y="316" class="nom">autoshorts</text>
+  <text x="556" y="344" class="d">Un sujet entre, un 9:16 sort : script IA, voix</text>
+  <text x="556" y="366" class="d">neuronale, b-roll libre, sous-titres karaoké.</text>
+  <text x="556" y="392" class="tag">Node · un seul .env · fonctionne sans clé API</text>
+
+  <g filter="url(#ombre)"><rect x="530" y="430" width="440" height="128" rx="13" fill="#fff" stroke="#e2e5ee"/></g>
+  <rect x="530" y="430" width="5" height="128" rx="2.5" fill="#25d366"/>
+  <text x="556" y="462" class="nom">passerelle</text>
+  <text x="556" y="490" class="d">Pont WhatsApp ↔ Notion, Sheets, Airtable. Note</text>
+  <text x="556" y="512" class="d">vocale transcrite, échéance calculée en français.</text>
+  <text x="556" y="538" class="tag">Node 24 · zéro dépendance runtime · MIT</text>
+
+  <!-- Colonne 3 -->
+  <text x="1000" y="122" class="fam">DONNÉES PUBLIQUES</text>
+  <g filter="url(#ombre)"><rect x="1000" y="138" width="440" height="128" rx="13" fill="#fff" stroke="#e2e5ee"/></g>
+  <rect x="1000" y="138" width="5" height="128" rx="2.5" fill="#0ea5e9"/>
+  <text x="1026" y="170" class="nom">ci-data</text>
+  <text x="1026" y="198" class="d">1 609 subdivisions de la Côte d'Ivoire, jours</text>
+  <text x="1026" y="220" class="d">fériés 2023-2032, plan de numérotation ARTCI.</text>
+  <text x="1026" y="246" class="tag">JSON · CSV · Express · paquet Node</text>
+
+  <g filter="url(#ombre)"><rect x="1000" y="284" width="440" height="274" rx="13" fill="#14161f"/></g>
+  <text x="1026" y="316" class="dtb">Comment lire ces dépôts</text>
+  <text x="1026" y="344" class="dt">Chaque dépôt est autonome : on le clone,</text>
+  <text x="1026" y="364" class="dt">on lit son README, il tourne.</text>
+  <line x1="1026" y1="384" x2="1414" y2="384" stroke="#2a2e45"/>
+  <text x="1026" y="412" class="dl">· Le README suffit, jamais un doc externe</text>
+  <text x="1026" y="434" class="dl">· Les messages d'erreur sont en français</text>
+  <text x="1026" y="456" class="dl">· Peu de variables d'environnement,</text>
+  <text x="1026" y="476" class="dl">  et un exemple commenté pour chacune</text>
+  <text x="1026" y="502" class="dl">· Ce qui est publié est utilisable tel quel,</text>
+  <text x="1026" y="522" class="dl">  pas une démo à moitié câblée</text>
+</svg>

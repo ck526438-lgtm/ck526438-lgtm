@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 400" width="1500" height="400" role="img" aria-label="FORMATpro3 — studio d'outils autonomes pour indépendants">
+  <defs>
+    <linearGradient id="fond" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151728"/>
+      <stop offset="0.45" stop-color="#191b2e"/>
+      <stop offset="1" stop-color="#0d0e18"/>
+    </linearGradient>
+    <linearGradient id="fil" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.72" cy="0.28" r="0.62">
+      <stop offset="0" stop-color="#4f46e5" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#4f46e5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    text { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .mot { font-size: 13px; font-weight: 700; letter-spacing: 4.2px; fill: #8f96b8; }
+    .marque { font-size: 96px; font-weight: 800; letter-spacing: -4px; fill: #ffffff; }
+    .trois { fill: url(#fil); }
+    .base { font-size: 27px; fill: #b9bfd8; }
+    .etiquette { font-size: 15.5px; font-weight: 650; fill: #c7cbff; }
+    .sur { font-size: 15.5px; font-weight: 700; fill: #ffffff; }
+  </style>
+
+  <rect width="1500" height="400" fill="url(#fond)"/>
+  <rect width="1500" height="400" fill="url(#halo)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05">
+    <path d="M0 100 H1500 M0 200 H1500 M0 300 H1500 M250 0 V400 M500 0 V400 M750 0 V400 M1000 0 V400 M1250 0 V400"/>
+  </g>
+
+  <!-- Motif : un graphe de nœuds, clin d'œil à l'éditeur de workflows -->
+  <g opacity="0.85">
+    <path d="M1092 128 H1188 M1092 128 V212 H1188 M1092 212 V296 H1188" stroke="#3f4468" stroke-width="2.5" fill="none"/>
+    <g>
+      <rect x="1188" y="104" width="196" height="48" rx="12" fill="#22263f" stroke="#3f4468"/>
+      <circle cx="1212" cy="128" r="7" fill="#22c55e"/>
+      <text x="1232" y="133" font-size="16" fill="#c9cee6" font-family="ui-sans-serif, system-ui">portail client</text>
+    </g>
+    <g>
+      <rect x="1188" y="188" width="196" height="48" rx="12" fill="#22263f" stroke="#3f4468"/>
+      <circle cx="1212" cy="212" r="7" fill="#818cf8"/>
+      <text x="1232" y="217" font-size="16" fill="#c9cee6" font-family="ui-sans-serif, system-ui">prise de RDV</text>
+    </g>
+    <g>
+      <rect x="1188" y="272" width="196" height="48" rx="12" fill="#22263f" stroke="#3f4468"/>
+      <circle cx="1212" cy="296" r="7" fill="#f59e0b"/>
+      <text x="1232" y="301" font-size="16" fill="#c9cee6" font-family="ui-sans-serif, system-ui">publication auto</text>
+    </g>
+    <circle cx="1092" cy="128" r="6" fill="#4f46e5"/>
+    <circle cx="1092" cy="212" r="6" fill="#4f46e5"/>
+    <circle cx="1092" cy="296" r="6" fill="#4f46e5"/>
+    <path d="M1092 40 V364" stroke="#4f46e5" stroke-width="2.5" stroke-dasharray="1 9" opacity="0.7"/>
+  </g>
+
+  <text x="96" y="112" class="mot">STUDIO DE LOGICIEL · DEPUIS 2025</text>
+  <text x="92" y="212" class="marque">FORMATpro<tspan class="trois">3</tspan></text>
+  <text x="96" y="266" class="base">Des outils qui travaillent pour les indépendants,</text>
+  <text x="96" y="302" class="base">pas l'inverse&#160;: auto-hébergeables, en français,</text>
+  <text x="96" y="338" class="base">sans abonnement et sous licence MIT.</text>
+
+  <g>
+    <rect x="96" y="360" width="176" height="26" rx="13" fill="#ffffff" fill-opacity="0.06" stroke="#3f4468"/>
+    <text x="184" y="378" class="etiquette" text-anchor="middle">6 <tspan class="sur">dépôts publics</tspan></text>
+  </g>
+  <g>
+    <rect x="286" y="360" width="196" height="26" rx="13" fill="#ffffff" fill-opacity="0.06" stroke="#3f4468"/>
+    <text x="384" y="378" class="etiquette" text-anchor="middle">Licence <tspan class="sur">MIT</tspan></text>
+  </g>
+  <g>
+    <rect x="496" y="360" width="252" height="26" rx="13" fill="#ffffff" fill-opacity="0.06" stroke="#3f4468"/>
+    <text x="622" y="378" class="etiquette" text-anchor="middle">Interface <tspan class="sur">100 % française</tspan></text>
+  </g>
+</svg>
