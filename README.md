@@ -1,5 +1,16 @@
 ![FORMATpro3 — studio d'outils autonomes pour indépendants](assets/banniere.svg)
 
+## Le portail client, en 30 secondes
+
+La question du client, la page qu'il voit, le fichier que vous poussez, la facture qui se calcule toute
+seule, et les trois règles du studio. Tout cela tient dans
+[git-client-portal](https://github.com/ck526438-lgtm/git-client-portal), un dépôt *template* en Next.js.
+
+<a href="https://github.com/ck526438-lgtm/git-client-portal">
+  <img src="assets/motion-portail.gif" width="800" height="450"
+       alt="Animation de 30 secondes : le portail client piloté par un dépôt Git" />
+</a>
+
 ## Le catalogue
 
 ![Six outils du studio FORMATpro3](assets/catalogue.svg)
